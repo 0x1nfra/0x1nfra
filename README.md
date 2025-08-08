@@ -1,45 +1,92 @@
-<h1 align="left">Hey 👋 What's up?</h1>
+# Irfan Murad
 
-###
+**Backend Developer building scalable APIs and AI-powered solutions**
 
-<p align="left">My name is Irfan Murad and I'm a backend developer, from Malaysia</p>
+🚀 **Available for freelance projects** • 📍 Malaysia • 📧 [irfanfmurad@gmail.com](mailto:your.email@gmail.com)
 
-###
+## What I Build
 
-<h2 align="left">About me</h2>
+🔥 **High-performance APIs** that handle thousands of requests without breaking  
+💼 **Complete web applications** from database to deployment  
+⚡ **Fast, reliable solutions** for growing businesses
 
-###
+## Currently Learning
 
-<p align="left">✨ Creating bugs since 2022 (professionally breaking things for 3+ years now)<br>📚 I'm currently learning frontend development and teaching machines to have conversations (LangChain, local LLMs, and other ways to make computers pretend they're smart)<br>🎯 Goals: Build cool stuff that actually works on the first try (still working on that part)<br>🎲 Fun fact: I funded my wedding by flipping NFTs and trading memecoins like a true degenerate gambler 💎<br>🙌 Also did film photography because apparently that's what performative males do (guilty as charged)</p>
+📚 Frontend development (React, Next.js) and advanced AI integration (LangChain, local LLMs)
 
-###
+## Beyond Code
 
-<h2 align="left">I code with</h2>
+🎮 I enjoy playing roguelike/roguelite games and listening to heavy music
 
-###
+## Tech Stack
 
-<div align="left">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" alt="javascript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" height="40" alt="typescript logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" height="40" alt="python logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" height="40" alt="nodejs logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" height="40" alt="express logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" height="40" alt="mongodb logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="40" alt="postgresql logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" height="40" alt="docker logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" alt="react logo"  />
-  <img width="12" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" height="40" alt="nextjs logo"  />
-  <img width="12" />
-  <img src="https://cdn.simpleicons.org/tailwindcss/06B6D4" height="40" alt="tailwindcss logo"  />
-</div>
+**Languages**
 
-###
+<p align="left">
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a>
+<a href="https://www.typescriptlang.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a>
+<a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a>
+</p>
+
+**Backend**
+
+<p align="left">
+<a href="https://nodejs.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
+<a href="https://expressjs.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="express" width="40" height="40"/> </a>
+<a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg" alt="mongodb" width="40" height="40"/> </a>
+<a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a>
+<a href="https://redis.io" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/redis/redis-original-wordmark.svg" alt="redis" width="40" height="40"/> </a>
+</p>
+
+**Frontend**
+
+<p align="left">
+<a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a>
+<a href="https://nextjs.org/" target="_blank" rel="noreferrer"> <img src="https://cdn.worldvectorlogo.com/logos/nextjs-2.svg" alt="nextjs" width="40" height="40"/> </a>
+<a href="https://tailwindcss.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="40" height="40"/> </a>
+</p>
+
+**Tools & DevOps**
+
+<p align="left">
+<a href="https://www.docker.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a>
+<a href="https://git-scm.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
+<a href="https://www.nginx.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a>
+<a href="https://www.gnu.org/software/bash/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a>
+</p>
+
+**Cloud & Services**
+
+<p align="left">
+<a href="https://firebase.google.com/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="firebase" width="40" height="40"/> </a>
+</p>
+
+<!-- ## Recent Work
+
+**⚡ E-commerce API** - Built payment processing system handling 1K+ transactions
+**🤖 AI Customer Support** - ChatGPT integration reducing support tickets by 60%
+**📊 Analytics Dashboard** - Real-time data visualization for business insights
+
+[**→ View Full Portfolio**](your-portfolio-link) -->
+
+## Current Work
+
+**🤖 Alfred Bot** - AI-powered knowledge base system with Speech-to-Text and Text-to-Speech capabilities  
+Currently deployed across multiple enterprise projects, including a **major Malaysian bank's fully digital branch** where it guides customers through self-service banking without human tellers. Built with sentence-transformers, ChromaDB vector search, and supports both voice and text interactions for instant, accurate responses from curated knowledge bases.
+
+## Connect with me
+
+<p align="left">
+<a href="https://twitter.com/0x1nfra" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="0x1nfra" height="30" width="40" /></a>
+<a href="https://linkedin.com/in/irfanmurad" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="irfanmurad" height="30" width="40" /></a>
+</p>
+
+## Let's Build Something
+
+Got a project idea? Need an API? Want to add AI to your business?
+
+**📧 Drop me a line:** [irfanfmurad@gmail.com](mailto:your.email@gmail.com)
+
+<!-- **💬 Quick chat:** [Schedule 15 minutes](calendar-link) -->
+
+<!-- *Currently booking projects for [current month] →* -->
