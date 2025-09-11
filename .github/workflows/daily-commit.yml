@@ -1,5 +1,4 @@
 name: Daily Commit
-
 on:
   schedule:
     # Runs at 08:00 UTC daily
@@ -10,10 +9,15 @@ jobs:
   daily-commit:
     runs-on: ubuntu-latest
     
+    permissions:
+      contents: write
+    
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
     - name: Update daily log
       run: |
         echo "# 📊 Profile Activity Log" > daily_activity.md
@@ -27,14 +31,16 @@ jobs:
         echo "---" >> daily_activity.md
         echo "*This file is automatically updated daily to maintain GitHub activity.*" >> daily_activity.md
         
-    - name: Commit changes
+    - name: Commit and push changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add .
-        git commit -m "Automated daily update - $(date +%Y-%m-%d)" || exit 0
-        
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+          exit 0
+        fi
+        git commit -m "Automated daily update - $(date +%Y-%m-%d)"
+        git push
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
