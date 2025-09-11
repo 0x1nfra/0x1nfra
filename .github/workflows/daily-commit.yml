@@ -3,32 +3,38 @@ name: Daily Commit
 on:
   schedule:
     # Runs at 08:00 UTC daily
-    - cron: "0 8 * * *"
+    - cron: '0 8 * * *'
   workflow_dispatch: # Allows manual triggering
 
 jobs:
   daily-commit:
     runs-on: ubuntu-latest
-
+    
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
-
-      - name: Update daily log
-        run: |
-          echo "Last automated update: $(date)" > daily_activity.md
-          echo "Repository status: Active" >> daily_activity.md
-          echo "Days since creation: $(($(date +%s) / 86400))" >> daily_activity.md
-          # Add any other activity tracking you want here
-
-      - name: Commit changes
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add daily_activity.md
-          git commit -m "Automated daily update - $(date +%Y-%m-%d)" || exit 0
-
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      
+    - name: Update daily log
+      run: |
+        echo "# 📊 Profile Activity Log" > daily_activity.md
+        echo "" >> daily_activity.md
+        echo "**Last Update:** $(date '+%Y-%m-%d %H:%M:%S UTC')" >> daily_activity.md
+        echo "**Status:** 🟢 Active" >> daily_activity.md
+        echo "**Location:** 🇲🇾 Malaysia" >> daily_activity.md
+        echo "**Day of Year:** $(date +%j)/365" >> daily_activity.md
+        echo "**Unix Timestamp:** $(date +%s)" >> daily_activity.md
+        echo "" >> daily_activity.md
+        echo "---" >> daily_activity.md
+        echo "*This file is automatically updated daily to maintain GitHub activity.*" >> daily_activity.md
+        
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git commit -m "Automated daily update - $(date +%Y-%m-%d)" || exit 0
+        
+    - name: Push changes
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
