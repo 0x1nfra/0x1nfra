@@ -16,9 +16,9 @@ jobs:
 
       - name: Update daily log
         run: |
-          echo "Last automated update: $(date)" > daily_activity.txt
-          echo "Repository status: Active" >> daily_activity.txt
-          echo "Days since creation: $(($(date +%s) / 86400))" >> daily_activity.txt
+          echo "Last automated update: $(date)" > daily_activity.md
+          echo "Repository status: Active" >> daily_activity.md
+          echo "Days since creation: $(($(date +%s) / 86400))" >> daily_activity.md
           # Add any other activity tracking you want here
 
       - name: Commit changes
