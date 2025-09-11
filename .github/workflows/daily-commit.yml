@@ -20,15 +20,13 @@ jobs:
         
     - name: Update daily log
       run: |
-        echo "# 📊 Profile Activity Log" > daily_activity.md
-        echo "" >> daily_activity.md
-        echo "**Last Update:** $(date '+%Y-%m-%d %H:%M:%S UTC')" >> daily_activity.md
-        echo "**Status:** 🟢 Active" >> daily_activity.md
-        echo "**Location:** 🇲🇾 Malaysia" >> daily_activity.md
-        echo "**Day of Year:** $(date +%j)/365" >> daily_activity.md
-        echo "**Unix Timestamp:** $(date +%s)" >> daily_activity.md
-        echo "" >> daily_activity.md
-        echo "---" >> daily_activity.md
+        echo -e "# 📊 Profile Activity Log\n" > daily_activity.md
+        echo -e "**Last Update:** $(date '+%Y-%m-%d %H:%M:%S UTC')\n" >> daily_activity.md
+        echo -e "**Status:** 🟢 Active\n" >> daily_activity.md
+        echo -e "**Location:** 🇲🇾 Malaysia\n" >> daily_activity.md
+        echo -e "**Day of Year:** $(date +%j)/365\n" >> daily_activity.md
+        echo -e "**Unix Timestamp:** $(date +%s)\n" >> daily_activity.md
+        echo -e "---\n" >> daily_activity.md
         echo "*This file is automatically updated daily to maintain GitHub activity.*" >> daily_activity.md
         
     - name: Commit and push changes
