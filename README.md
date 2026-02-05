@@ -14,4 +14,4 @@ Node · TypeScript · Python · MongoDB · PostgreSQL · Redis · Docker · HTML
 
 ## Elsewhere
 
-Market analysis and systems design on [X](https://twitter.com/0xGR1MM)
+Market analysis and systems design on [X](https://twitter.com/0x1nfra)
